@@ -13,26 +13,26 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 # API
-gem 'fast_jsonapi'
-gem 'rack-cors'
-gem 'pry-rails'
-gem 'dotenv-rails', '~> 3.1', '>= 3.1.8'
-gem 'rubocop', '~> 1.80', '>= 1.80.2'
+gem "fast_jsonapi"
+gem "rack-cors"
+gem "pry-rails"
+gem "dotenv-rails", "~> 3.1", ">= 3.1.8"
+gem "rubocop", "~> 1.80", ">= 1.80.2"
 
 # Testing
-gem 'rspec-rails'
-gem 'factory_bot_rails'
-gem 'faker'
-gem 'shoulda-matchers'
+gem "rspec-rails"
+gem "factory_bot_rails"
+gem "faker"
+gem "shoulda-matchers"
 
 # Documentation
-gem 'rswag-api'
-gem 'rswag-ui'
+gem "rswag-api"
+gem "rswag-ui"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-
   gem "brakeman", require: false
-
   gem "rubocop-rails-omakase", require: false
+  gem "rspec-rails"
+  gem "rswag-specs"
 end
