@@ -17,7 +17,7 @@ gem "fast_jsonapi"
 gem "rack-cors"
 gem "pry-rails"
 gem "dotenv-rails", "~> 3.1", ">= 3.1.8"
-gem "rubocop", "~> 1.80", ">= 1.80.2"
+gem "rubocop", "~> 1.81"
 
 # Testing
 gem "rspec-rails"
